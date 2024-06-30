@@ -1,9 +1,13 @@
 import './App.css'
+import {BrowserRouter} from "react-router-dom";
+import RouteController from "./RouteController.tsx";
 
 function App() {
   return (
-    <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-4">
-      <h1 className="text-xl font-medium text-black">Hello from React and Tailwind!</h1>
+    <div className="container bg-blue-500">
+     <BrowserRouter>
+         <RouteController/>
+     </BrowserRouter>
     </div>
   );
 }
