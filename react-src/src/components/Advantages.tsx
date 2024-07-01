@@ -40,7 +40,7 @@ export default function Advantages () {
     ]
 
     return (
-        <div className={'flex flex-wrap items-center lg:justify-between justify-center gap-y-6'}>
+        <div className={'flex flex-wrap items-center lg:justify-between justify-center gap-y-6 mb-10 sm:mb-16'}>
             {
                 creativeCardsData.map((data) => <CreariveCard data={data}/>)
             }

@@ -1,6 +1,8 @@
+import React from "react";
 
 
 export default function Header() {
+
     return (
         <div className={'flex items-center justify-between mt-6 mb-8'}>
             <div className={'flex flex-col content-start gap-y-6 md:max-w-[60%] '}>
