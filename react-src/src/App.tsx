@@ -1,7 +1,8 @@
 import './App.css'
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter } from "react-router-dom";
 import RouteController from "./RouteController.tsx";
 import Navbar from "./components/Navbar.tsx";
+
 
 function App() {
   return (
@@ -13,7 +14,6 @@ function App() {
             <BrowserRouter>
             <RouteController/>
             </BrowserRouter>
-
         </div>
     </div>
   );

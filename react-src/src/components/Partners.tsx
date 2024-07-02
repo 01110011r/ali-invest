@@ -7,8 +7,8 @@ function Partners() {
 
 
     return (
-        <div className={'pb-7 w-full'}>
-            <h2 className={'font-semibold lg:text-7xl mb-7 text-center text-[#0A275E]'}>
+        <div className={'pb-7 w-full mb-16'}>
+            <h2 className={'font-semibold lg:text-7xl text-5xl mb-7 text-center text-[#0A275E]'}>
                 Наши партнеры
             </h2>
             <Swiper

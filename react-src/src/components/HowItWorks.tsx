@@ -57,7 +57,7 @@ function HowItWorks() {
                             <img src={'../../public/Document.png'} alt={'document png'}/>
                         </div>
                         <form className={'flex flex-col gap-6'}>
-                            <textarea maxLength={50} className={'max-w-96 min-w-60 max-h-16 rounded-xl px-4 py-2 border-2 outline-none'}>
+                            <textarea maxLength={50} className={' xs:max-w-96 w-44 xs:min-w-60  max-h-16 min-h-12 rounded-xl px-4 py-2 border-2 outline-none'}>
 
                             </textarea>
                             <button className={'rounded-xl px-4 py-2 border-2 hover:bg-[#F97700] hover:border-[#fdfdfd] hover:text-[#fdfdfd]'}> Submit </button>
